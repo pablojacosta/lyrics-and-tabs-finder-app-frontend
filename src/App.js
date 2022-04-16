@@ -94,7 +94,7 @@ const App = () => {
 
     const options = {
       method: 'GET',
-      url: 'http://localhost:3001/lyrics',
+      url: '/lyrics',
       responseType: 'text',
       params: {passedUrl:url }
     }
